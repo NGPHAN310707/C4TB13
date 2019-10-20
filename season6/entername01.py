@@ -1,9 +1,13 @@
 while True:
     txt = input("Enter a name?")
     print(txt)
-    if txt.isdigit():
-        continue
-    else:
-        print("Verified")
+    if txt.isalpha():
+        print(txt,"is a name")
         break
+    else:
+        print("Verified") 
+        
+
+    
+    
     
