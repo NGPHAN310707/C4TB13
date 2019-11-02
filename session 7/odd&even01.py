@@ -1,9 +1,3 @@
-while True:
-    n = input("?")
-    if int(n) < 0:
-        print("Any number")
-        continue
-    elif int(n) % 2 == 0:
-        print("you choose an even number")
-    else:
-        print("you choose an odd number")
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
