@@ -24,11 +24,16 @@ a=randint(0,100)
 b=randint(0,100)
 c=randint(0,2)
 d=int(input("CORRECT or INCORRECT?"))
+print(a,"+"b,"=")
+
 
 
 
 if c == 0:
-    print(a+b)
+    print(a+b-3)
+
+if c== 0:
+    print
     
 
 float(inf)
