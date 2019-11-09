@@ -1,3 +1,8 @@
-Ilike = ['truyen tranh','game','phim']
-Ilikw.pop(1)
-print(thumatoithich2)
+
+print(Ilike)
+Ilike = ['CHAMPION','UNI','ANTI']
+if 'Nike' in Ilike:
+    Ilike.remove('LOL')
+    print(Ilike)
+else:    
+    print(Ilike)
