@@ -1,7 +1,7 @@
 colorset = ['red', 'blue', 'black','purple', 'white']
 
 while len(colorset) != 0:
-    option = input('Enter a item that you prefer to delete: ')
+    option = input('Enter an item that you prefer to delete: ')
     if option.isdigit():
         print('Pop',option,'(',colorset[int(option)],')')
         colorset.pop(int(option))
@@ -10,7 +10,7 @@ while len(colorset) != 0:
         for i in colorset:
             if i == option:
                 colorset.remove(i)
-                print('Remove ',option)
+                print('Remove',option)
                 isIn = True
                 break
         if isIn == False:
