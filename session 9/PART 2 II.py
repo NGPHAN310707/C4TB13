@@ -1,15 +1,20 @@
+colorset = ['red', 'blue', 'black','purple', 'white']
 
-
-list = ['blue','red','black','green']
-x = int(input('Enter your number? '))
-if x == 0:
-    list.pop(1)
-    list.remove('blue')
-    list.remove('green')
-    print(list)
-
-list = ['blue','red','black','green']
-list = [x for x in li if x%2!=0]
-print (list)
-
-len(list)
+while len(colorset) != 0:
+    option = input('Enter a item that you prefer to delete: ')
+    if option.isdigit():
+        print('Pop',option,'(',colorset[int(option)],')')
+        colorset.pop(int(option))
+    elif option.isalpha():
+        isIn = False
+        for i in colorset:
+            if i == option:
+                colorset.remove(i)
+                print('Remove ',option)
+                isIn = True
+                break
+        if isIn == False:
+            print('Cannot found',option)
+    else:
+        print('WRONG')
+    print(colorset)
