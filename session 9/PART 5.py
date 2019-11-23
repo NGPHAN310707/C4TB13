@@ -1,7 +1,9 @@
 x = ["ST", "BĐ", "BTL", "CG", "ĐĐ", "HBT"]
 y = [150300, 247100, 333300, 266800, 420900, 318000]
 
+#command
 # maximum
+
 #print("max: " + str(max(p)))
 #print("min: " + str(min(p)))
 
