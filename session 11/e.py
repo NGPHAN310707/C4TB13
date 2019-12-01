@@ -35,5 +35,7 @@ skill = {
 for i,a in enumerate(skill):
     print(i+1,skill[a])
 c = random.randint(0,1)    
-b = input('ban muon dung skill nao: ')
-    pass
+b = input('preferred skill: ')
+
+
+pass
