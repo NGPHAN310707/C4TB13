@@ -10,8 +10,8 @@ set = {
     'level' : 2
 }
 set['gold'] + 50
-adventure['backpack'].append('flight stone')
-adventure['pocket'] = ['monstersdex','flashlight']
+set['backpack'].append('flight stone')
+set['pocket'] = ['monstersdex','flashlight']
 skill = {
     'skill' : {
         'name' : 'tackle',        
@@ -20,7 +20,7 @@ skill = {
         'hit rate' : 0.3        
     },
     'skill2' : {
-        'name' : 'qick attack',        
+        'name' : 'quick attack',        
         'minimum level' : 2,
         'damage' : 3,
         'hit rate' : 0.5        
@@ -32,10 +32,24 @@ skill = {
         'hit rate' : 0.2        
     }
 }
-for i,a in enumerate(skill):
-    print(i+1,skill[a])
+for i,set in enumerate(skill):
+    print(i+1,skill[set])
 c = random.randint(0,1)    
 b = input('preferred skill: ')
+if int(b) == 1 and set['level'] > skill['skill1']['damage']
+['minimum level']:
+    if c > ['skill1']['hit rate']:
+        print ('correctly aimed',total damage skill['skill1]['damage']
+                                                    else:
+                                                        print ('missed')
+                                                        else:
+                                                            pass
+
+   
+
+    
 
 
-pass
+
+
+
