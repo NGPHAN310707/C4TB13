@@ -1,0 +1,42 @@
+.icon-bar {
+    width: 30px;
+}
+
+< script>function myFunction() {
+    // Declare variables
+    var input,
+    filter,
+    ul,
+    li,
+    a,
+    i;
+    input=document.getElementById("mySearch");
+    filter=input.value.toUpperCase();
+    ul=document.getElementById("myMenu");
+    li=ul.getElementsByTagName("li");
+    // Loop through all list items, and hide those who don't match the search query
+    for (i=0;
+    i < li.length;
+    i++) {
+        a=li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display="";
+        }
+        else {
+            li[i].s tyle.display="none";
+        }
+    }
+}
+
+< /script><input type="text" id="search" onkeyup="myFunction()" placeholder="Search..." title="Type in a category"><ul id="myMenu"><li><a href="http://www.medicomtoystore.com/">Basketball</a></li><li><a href="https://www.google.com/">NBAteams</a></li><li><a href="https://www.nasa.gov/">Shoes</a></li></ul>mySearch {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid
+}
+
+myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
