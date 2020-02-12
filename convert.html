@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>NBA: Professional Converter</title>
+<body>
+
+<h2>Height Converter</h2>
+<p>Choose a value in Feet to convert it to Meters:</p>
+
+<p>
+  <label>Feet</label>
+  <input id="inputFeet" type="number" placeholder="hmmmmm" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Meters: <span id="outputMeters"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputMeters").innerHTML=valNum/3.2808;
+}
+</script>
+</body>
+</html>
+
+
+<h2>Weight Converter</h2>
+<p>Choose a value in Pounds to convert it to Kilograms:</p>
+
+<p>
+  <label>Pounds</label>
+  <input id="inputPounds" type="number" placeholder="hmmmm" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</p>
+<p>Kilograms: <span id="outputKilograms"></span></p>
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
+}
+</script>
+
+</body>
+</html>
+
+
+
